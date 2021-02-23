@@ -1,0 +1,20 @@
+package test.abs.and.inerface;
+
+public abstract class Animal implements LivingBeing{
+	
+	private boolean eyes;
+	private boolean mout;
+	
+	public void born() {
+		
+		System.out.println("be born");
+		
+	}
+	
+	public abstract void die();
+	
+	public static void staticTest() {
+		System.out.println("print static method");
+	}
+
+}

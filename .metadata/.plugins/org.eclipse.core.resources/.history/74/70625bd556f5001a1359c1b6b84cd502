@@ -1,0 +1,10 @@
+package test.abs.and.inerface;
+
+public interface LivingBeing {
+	
+	public static final int x = 0;
+	
+	void respirar();
+	String grow();
+
+}
